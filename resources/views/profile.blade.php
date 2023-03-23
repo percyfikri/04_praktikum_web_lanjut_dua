@@ -1,10 +1,10 @@
 @extends('master')
 
-@section('title', 'Profile')
+@section('title', 'profile')
 
 @section('pages')
 
-@section('page', 'Profile')
+@section('page', 'profile')
 
 @section('konten_profile')
 <section class="content">

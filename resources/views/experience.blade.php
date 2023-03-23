@@ -6,7 +6,7 @@
 
 @section('page', 'Experience')
 
-@section('konten_diary')
+@section('konten_experience')
         <div class="container-fluid">
           <div class="row">
             <div class="col-12">
