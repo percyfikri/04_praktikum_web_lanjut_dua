@@ -22,7 +22,7 @@
                   </div>
                 </div>
                 <div class="card-body">
-                    Sejak berkuliah di POLINEMA dengan memilih jurusan di Teknin Informasi prodi D4 Teknik Informatika, Saya sangat senang dikarenakan tugas yang diberikan oleh paradosen sangatlah mudah dan pemberian deadlinenya juga panjang. Oleh karena itu, saya sangat termotivasi untuk selalu rajin mengikuti perkuliahan dan mengerjakan tugas tepat waktu
+                    Sejak berkuliah di POLINEMA dengan memilih Jurusan Teknik Informasi Prodi D4 Teknik Informatika, Saya sangat senang sekali dikarenakan tugas yang diberikan oleh para dosen sangatlah mudah dan pemberian deadlinenya juga panjang. Oleh karena itu, saya sangat termotivasi untuk selalu rajin mengikuti perkuliahan dan mengerjakan tugas tepat waktu
                 </div>
                 <!-- /.card-body -->
               </div>
