@@ -12,9 +12,11 @@
 <style></style>
 @endpush  
 
-
-<h1>{{ $welcome }}</h1>
-<p>Ini adalah Halaman Utama Kami    </p>
+@foreach ($data as $item)
+            <h1>{{$item->title}}</h1>
+            <p>{{$item->content}}</p>
+            {{-- <p>Ini adalah Halaman Utama Kami</p> --}}
+            @endforeach
 @endsection
 @push('custom_js')
 <script>
