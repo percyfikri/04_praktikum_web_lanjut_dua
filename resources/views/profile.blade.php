@@ -13,6 +13,7 @@
         <div class="col-md-5">
 
           <!-- Profile Image -->
+          @foreach ($data as $item)
           <div class="card card-primary card-outline">
             <div class="card-body box-profile">
               <div class="text-center">
@@ -20,31 +21,30 @@
                      src="../../dist/img/PasPhoto.png"
                      alt="User profile picture">
               </div>
-
-              <h3 class="profile-username text-center">{{ $profile['nama'] }}</h3>
-
-              <p class="text-muted text-center">{{ $profile['status'] }}</p>
+              
+              <h3 class="profile-username text-center">{{$item->nama}}</h3>
 
               <ul class="list-group list-group-unbordered mb-3">
                 <li class="list-group-item">
-                  <b>Followers</b> <a class="float-right">1M</a>
+                  <b>NIM</b> <a class="float-right">{{$item->nim}}</a>
                 </li>
                 <li class="list-group-item">
-                  <b>Following</b> <a class="float-right">99</a>
+                  <b>No. Absen</b> <a class="float-right">{{$item->absen}}</a>
                 </li>
                 <li class="list-group-item">
-                  <b>Friends</b> <a class="float-right">15,560</a>
+                  <b>Kelas</b> <a class="float-right">{{$item->kelas}}</a>
                 </li>
               </ul>
 
-              <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a>
+              <a href="#" class="btn btn-primary btn-block"><b>Like</b></a>
             </div>
             <!-- /.card-body -->
           </div>
           <!-- /.card -->
+          @endforeach
 
           <!-- About Me Box -->
-          <div class="card card-primary">
+          {{-- <div class="card card-primary">
             <div class="card-header">
               <h3 class="card-title">{{ $tentang_saya }}</h3>
             </div>
@@ -78,7 +78,7 @@
               <p class="text-muted">I really like the task</p>
             </div>
             <!-- /.card-body -->
-          </div>
+          </div> --}}
           <!-- /.card -->
         </div>
         <!-- /.col -->
