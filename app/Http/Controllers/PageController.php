@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Homepage;
 use App\Models\Experience;
 use App\Models\Profile;
 use Illuminate\Http\Request;
@@ -9,10 +10,9 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     function index(){
-        $data = [
-            'welcome' => 'Selamat Datang'
-        ];
-        return view('dashboard')->with($data);
+        $data = Homepage::all();
+        // $data1 = 
+        return view('dashboard')->with('data', $data);
     }
 
     function profile(){
