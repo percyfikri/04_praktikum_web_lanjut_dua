@@ -203,7 +203,7 @@
                with font-awesome or any other icon font library -->
           <li class="nav-item menu-open">
             <a href="dashboard" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-th"></i>
               <p>
                 Dashboard
                 {{-- <i class="right fas fa-angle-left"></i> --}}
