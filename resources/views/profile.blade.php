@@ -36,7 +36,7 @@
                 </li>
               </ul>
 
-              <a href="#" class="btn btn-primary btn-block"><b>Like</b></a>
+              <a href="https://www.instagram.com/pikii______/?hl=id" class="btn btn-primary btn-block"><b>Follow</b></a>
             </div>
             <!-- /.card-body -->
           </div>
